@@ -18,8 +18,6 @@ RSM.function = function(data = "", x1 = "", x2 = ""){
 RSM.matrix = RSM.function(data = QMP_final_matrix_subset, x1 = "Carbt1", x2 = "Proteint1")
 RSM.matrix
   
-rsm(Akkermansia ~FO(Carbt1,Proteint1), data = RSM.matrix)
-summary(rsm(Akkermansia ~FO(Carbt1,Proteint1), data = RSM.matrix))
 #create the coded data dataframe
 middle.values = NULL
 range.values = NULL
